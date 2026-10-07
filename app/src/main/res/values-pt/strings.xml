@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SonicFix</string>
+
+    <!-- Tabs -->
+    <string name="tab_clean">Ejetar</string>
+    <string name="tab_manual">Gerador</string>
+    <string name="tab_test">Diagnóstico</string>
+    <string name="tab_pro">Pro</string>
+
+    <!-- Auto Clean -->
+    <string name="auto_clean_title">Ejetar Água do Alto-falante</string>
+    <string name="auto_clean_subtitle">Expulse água e poeira usando ondas sonoras ressonantes e microvibrações</string>
+    <string name="btn_start_clean">EJETAR ÁGUA</string>
+    <string name="btn_stop">PARAR</string>
+    <string name="clean_completed_title">Limpeza Concluída!</string>
+    <string name="clean_completed_desc">As ondas sonoras expeliram a água e os resíduos. Teste o som na aba Diagnóstico.</string>
+    <string name="btn_ok">Entendi</string>
+    <string name="guide_header">Para Melhores Resultados</string>
+    <string name="guide_step_volume">Aumente o volume do aparelho para o máximo (100%)</string>
+    <string name="guide_step_facing">Coloque o alto-falante virado para baixo</string>
+
+    <!-- Manual Generator -->
+    <string name="manual_title">Gerador de Frequência</string>
+    <string name="manual_subtitle">Gerador acústico de tons e formas de onda em tempo real</string>
+    <string name="presets_title">Predefinições Rápidas</string>
+    <string name="btn_play_tone">TOCAR TOM</string>
+
+    <!-- Diagnostics -->
+    <string name="diag_title">Diagnóstico de Áudio</string>
+    <string name="diag_subtitle">Teste separação estéreo, resposta de frequência e decibéis do microfone</string>
+    <string name="stereo_test_title">Separação Estéreo</string>
+    <string name="ch_left">Esquerda</string>
+    <string name="ch_both">Ambos</string>
+    <string name="ch_right">Direita</string>
+    <string name="frequency_test_title">Teste de Frequência</string>
+    <string name="mic_meter_title">Medidor de Decibéis (dB)</string>
+    <string name="btn_enable_mic">Permitir Microfone</string>
+    <string name="btn_start_mic">Iniciar Medição</string>
+    <string name="btn_stop_mic">Parar Medição</string>
+    <string name="btn_stop_sound">Parar Som</string>
+
+    <!-- Pro -->
+    <string name="pro_subtitle">Desbloqueie ferramentas e proteção acústica avançada</string>
+    <string name="pro_feat_no_ads">100% Sem Anúncios</string>
+    <string name="pro_feat_no_ads_desc">Experiência limpa e sem distrações</string>
+    <string name="pro_feat_deep_clean">Modo Limpeza Profunda</string>
+    <string name="pro_feat_deep_clean_desc">Algoritmos de alta intensidade para água e partículas difíceis</string>
+    <string name="pro_feat_custom_presets">Ferramentas de Áudio Pro</string>
+    <string name="pro_feat_custom_presets_desc">Analisador de espectro completo e tons personalizados ilimitados</string>
+    <string name="pro_status_active">PRO DESBLOQUEADO</string>
+    <string name="btn_unlock_pro">Obter Pro Vitalício</string>
+    <string name="pro_onetime_notice">Pagamento único • Sem assinaturas recorrentes</string>
+</resources>

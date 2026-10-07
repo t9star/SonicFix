@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SonicFix</string>
+
+    <!-- Tabs -->
+    <string name="tab_clean">Keluarkan</string>
+    <string name="tab_manual">Generator</string>
+    <string name="tab_test">Diagnostik</string>
+    <string name="tab_pro">Pro</string>
+
+    <!-- Auto Clean -->
+    <string name="auto_clean_title">Keluarkan Air dari Speaker</string>
+    <string name="auto_clean_subtitle">Keluarkan air dan debu menggunakan gelombang suara resonansi dan getaran mikro</string>
+    <string name="btn_start_clean">KELUARKAN AIR</string>
+    <string name="btn_stop">BERHENTI</string>
+    <string name="clean_completed_title">Pembersihan Selesai!</string>
+    <string name="clean_completed_desc">Gelombang suara telah mengeluarkan air dan kotoran. Uji suara di tab Diagnostik.</string>
+    <string name="btn_ok">Mengerti</string>
+    <string name="guide_header">Untuk Hasil Maksimal</string>
+    <string name="guide_step_volume">Atur volume perangkat ke maksimal (100%)</string>
+    <string name="guide_step_facing">Posisikan speaker menghadap ke bawah</string>
+
+    <!-- Manual Generator -->
+    <string name="manual_title">Generator Frekuensi</string>
+    <string name="manual_subtitle">Generator nada akustik dan bentuk gelombang waktu nyata</string>
+    <string name="presets_title">Preset Cepat</string>
+    <string name="btn_play_tone">PUTAR NADA</string>
+
+    <!-- Diagnostics -->
+    <string name="diag_title">Diagnostik Audio</string>
+    <string name="diag_subtitle">Uji pemisahan stereo, respons frekuensi, dan desibel mikrofon</string>
+    <string name="stereo_test_title">Pemisahan Speaker Stereo</string>
+    <string name="ch_left">Kiri</string>
+    <string name="ch_both">Keduanya</string>
+    <string name="ch_right">Kanan</string>
+    <string name="frequency_test_title">Uji Respons Frekuensi</string>
+    <string name="mic_meter_title">Pengukur Desibel (dB) Mic</string>
+    <string name="btn_enable_mic">Izinkan Mikrofon</string>
+    <string name="btn_start_mic">Mulai Ukur</string>
+    <string name="btn_stop_mic">Hentikan Ukur</string>
+    <string name="btn_stop_sound">Hentikan Suara</string>
+
+    <!-- Pro -->
+    <string name="pro_subtitle">Buka fitur perlindungan akustik dan alat audio lengkap</string>
+    <string name="pro_feat_no_ads">100% Tanpa Iklan</string>
+    <string name="pro_feat_no_ads_desc">Nikmati pengalaman bersih tanpa gangguan</string>
+    <string name="pro_feat_deep_clean">Pembersihan Mendalam</string>
+    <string name="pro_feat_deep_clean_desc">Algoritma sapuan intensitas tinggi untuk air &amp; kotoran membandel</string>
+    <string name="pro_feat_custom_presets">Alat Audio Profesional</string>
+    <string name="pro_feat_custom_presets_desc">Penganalisis spektrum penuh dan preset tak terbatas</string>
+    <string name="pro_status_active">PRO AKTIF</string>
+    <string name="btn_unlock_pro">Dapatkan Pro Seumur Hidup</string>
+    <string name="pro_onetime_notice">Pembayaran satu kali • Tanpa langganan bulanan</string>
+</resources>

@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sound Wave Arc (Left Outer) -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M32,42 C26,49 26,59 32,66" />
+
+    <!-- Sound Wave Arc (Left Inner) -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M38,47 C35,51 35,57 38,61" />
+
+    <!-- Center Water Droplet (Safe Zone Centered: X=54, Y=54) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,34 C54,34 40,51 40,60 C40,67.7 46.3,74 54,74 C61.7,74 68,67.7 68,60 C68,51 54,34 54,34 Z" />
+
+    <!-- Droplet Inner Highlight -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M49,54 C46,57 46,62 49,65 C48,64 47.5,61.5 48,58 C48.5,55 49,54 49,54 Z" />
+
+    <!-- Sound Wave Arc (Right Inner) -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M70,47 C73,51 73,57 70,61" />
+
+    <!-- Sound Wave Arc (Right Outer) -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M76,42 C82,49 82,59 76,66" />
+
+</vector>

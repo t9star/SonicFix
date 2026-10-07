@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SonicFix</string>
+
+    <!-- Tabs -->
+    <string name="tab_clean">Eject</string>
+    <string name="tab_manual">Generator</string>
+    <string name="tab_test">Diagnostics</string>
+    <string name="tab_pro">Pro</string>
+
+    <!-- Auto Clean -->
+    <string name="auto_clean_title">Speaker Water Eject</string>
+    <string name="auto_clean_subtitle">Expel trapped water and dust using resonant sound waves and micro-vibrations</string>
+    <string name="btn_start_clean">EJECT WATER</string>
+    <string name="btn_stop">STOP</string>
+    <string name="clean_completed_title">Cleaning Completed!</string>
+    <string name="clean_completed_desc">Sound waves and vibrations have expelled trapped water and debris. Test your audio quality in Diagnostics.</string>
+    <string name="btn_ok">Got It</string>
+    <string name="guide_header">For Best Results</string>
+    <string name="guide_step_volume">Turn device volume to maximum (100%)</string>
+    <string name="guide_step_facing">Place device with speaker facing downward</string>
+
+    <!-- Manual Generator -->
+    <string name="manual_title">Frequency Generator</string>
+    <string name="manual_subtitle">Custom acoustic tone generator with real-time waveform synthesis</string>
+    <string name="presets_title">Quick Presets</string>
+    <string name="btn_play_tone">PLAY TONE</string>
+
+    <!-- Diagnostics -->
+    <string name="diag_title">Audio Diagnostics</string>
+    <string name="diag_subtitle">Test stereo separation, frequency response, and mic sound pressure</string>
+    <string name="stereo_test_title">Stereo Speaker Separation</string>
+    <string name="ch_left">Left</string>
+    <string name="ch_both">Both</string>
+    <string name="ch_right">Right</string>
+    <string name="frequency_test_title">Frequency Response Test</string>
+    <string name="mic_meter_title">Mic Sound Level Meter</string>
+    <string name="btn_enable_mic">Grant Mic Permission</string>
+    <string name="btn_start_mic">Start Measuring</string>
+    <string name="btn_stop_mic">Stop Measuring</string>
+    <string name="btn_stop_sound">Stop Sound</string>
+
+    <!-- Pro -->
+    <string name="pro_subtitle">Unlock the ultimate acoustic protection &amp; tools</string>
+    <string name="pro_feat_no_ads">100% Ad-Free</string>
+    <string name="pro_feat_no_ads_desc">Enjoy an uninterrupted, distraction-free experience</string>
+    <string name="pro_feat_deep_clean">Deep Frequency Purge</string>
+    <string name="pro_feat_deep_clean_desc">High-intensity sweep algorithms for stubborn water &amp; particles</string>
+    <string name="pro_feat_custom_presets">Advanced Audio Tools</string>
+    <string name="pro_feat_custom_presets_desc">Full-spectrum analyzer and unlimited custom sound presets</string>
+    <string name="pro_status_active">PRO UNLOCKED</string>
+    <string name="btn_unlock_pro">Get Lifetime Pro</string>
+    <string name="pro_onetime_notice">One-time purchase • No recurring subscriptions</string>
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SonicFix</string>
+
+    <!-- Tabs -->
+    <string name="tab_clean">Expulsar</string>
+    <string name="tab_manual">Generador</string>
+    <string name="tab_test">Diagnóstico</string>
+    <string name="tab_pro">Pro</string>
+
+    <!-- Auto Clean -->
+    <string name="auto_clean_title">Expulsar Agua del Altavoz</string>
+    <string name="auto_clean_subtitle">Elimina agua y polvo usando ondas sonoras resonantes y microvibraciones</string>
+    <string name="btn_start_clean">EXPULSAR AGUA</string>
+    <string name="btn_stop">DETENER</string>
+    <string name="clean_completed_title">¡Limpieza Completada!</string>
+    <string name="clean_completed_desc">Las ondas sonoras y vibraciones han expulsado el agua y residuos. Prueba tus altavoces en Diagnóstico.</string>
+    <string name="btn_ok">Entendido</string>
+    <string name="guide_header">Para Mejores Resultados</string>
+    <string name="guide_step_volume">Sube el volumen del dispositivo al máximo (100%)</string>
+    <string name="guide_step_facing">Coloca el teléfono con el altavoz hacia abajo</string>
+
+    <!-- Manual Generator -->
+    <string name="manual_title">Generador de Frecuencia</string>
+    <string name="manual_subtitle">Generador acústico de tonos y formas de onda en tiempo real</string>
+    <string name="presets_title">Ajustes Rápidos</string>
+    <string name="btn_play_tone">REPRODUCIR TONO</string>
+
+    <!-- Diagnostics -->
+    <string name="diag_title">Diagnóstico de Audio</string>
+    <string name="diag_subtitle">Prueba separación estéreo, respuesta de frecuencia y nivel de decibelios</string>
+    <string name="stereo_test_title">Separación Estéreo</string>
+    <string name="ch_left">Izquierda</string>
+    <string name="ch_both">Ambos</string>
+    <string name="ch_right">Derecha</string>
+    <string name="frequency_test_title">Prueba de Frecuencia</string>
+    <string name="mic_meter_title">Medidor de Decibelios (dB)</string>
+    <string name="btn_enable_mic">Permitir Micrófono</string>
+    <string name="btn_start_mic">Comenzar Medición</string>
+    <string name="btn_stop_mic">Detener Medición</string>
+    <string name="btn_stop_sound">Detener Sonido</string>
+
+    <!-- Pro -->
+    <string name="pro_subtitle">Desbloquea protección acústica y herramientas avanzadas</string>
+    <string name="pro_feat_no_ads">100% Libre de Anuncios</string>
+    <string name="pro_feat_no_ads_desc">Disfruta de una experiencia sin interrupciones</string>
+    <string name="pro_feat_deep_clean">Limpieza Profunda</string>
+    <string name="pro_feat_deep_clean_desc">Algoritmos de alta potencia para agua y polvo difíciles</string>
+    <string name="pro_feat_custom_presets">Herramientas Profesionales</string>
+    <string name="pro_feat_custom_presets_desc">Analizador de espectro completo y tonos personalizados ilimitados</string>
+    <string name="pro_status_active">PRO DESBLOQUEADO</string>
+    <string name="btn_unlock_pro">Obtener Pro de por Vida</string>
+    <string name="pro_onetime_notice">Pago único • Sin suscripciones mensuales</string>
+</resources>

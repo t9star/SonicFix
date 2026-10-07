@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SonicFix</string>
+
+    <!-- Tabs -->
+    <string name="tab_clean">水抜き</string>
+    <string name="tab_manual">周波数</string>
+    <string name="tab_test">診断</string>
+    <string name="tab_pro">Pro</string>
+
+    <!-- Auto Clean -->
+    <string name="auto_clean_title">スピーカー水抜き・ホコリ排出</string>
+    <string name="auto_clean_subtitle">共振音波と微細バイブレーションで内部の水滴やホコリを弾き飛ばします</string>
+    <string name="btn_start_clean">水抜きを開始</string>
+    <string name="btn_stop">停止</string>
+    <string name="clean_completed_title">クリーニング完了！</string>
+    <string name="clean_completed_desc">音波振動によって水滴と微粒子を排出しました。「診断」タブで音質を確認してください。</string>
+    <string name="btn_ok">了解</string>
+    <string name="guide_header">効果を高めるポイント</string>
+    <string name="guide_step_volume">端末の音量を最大（100%）にしてください</string>
+    <string name="guide_step_facing">スピーカー開口部を下に向けてください</string>
+
+    <!-- Manual Generator -->
+    <string name="manual_title">周波数ジェネレーター</string>
+    <string name="manual_subtitle">リアルタイムPCM波形合成による高精度音響トーン生成</string>
+    <string name="presets_title">クイックプリセット</string>
+    <string name="btn_play_tone">トーン再生</string>
+
+    <!-- Diagnostics -->
+    <string name="diag_title">オーディオ診断</string>
+    <string name="diag_subtitle">ステレオ分離、周波数応答、マイク音圧レベルのテスト</string>
+    <string name="stereo_test_title">ステレオスピーカー分離テスト</string>
+    <string name="ch_left">左のみ</string>
+    <string name="ch_both">両方</string>
+    <string name="ch_right">右のみ</string>
+    <string name="frequency_test_title">音域チェック</string>
+    <string name="mic_meter_title">マイク音圧（dB）測定</string>
+    <string name="btn_enable_mic">マイク権限を許可</string>
+    <string name="btn_start_mic">測定開始</string>
+    <string name="btn_stop_mic">測定停止</string>
+    <string name="btn_stop_sound">音声を停止</string>
+
+    <!-- Pro -->
+    <string name="pro_subtitle">究極の音響保護とプロ用ツールをアンロック</string>
+    <string name="pro_feat_no_ads">100% 広告なし</string>
+    <string name="pro_feat_no_ads_desc">邪魔な広告のない快適な操作体験</string>
+    <string name="pro_feat_deep_clean">超強力ディープパージ</string>
+    <string name="pro_feat_deep_clean_desc">頑固な水滴や粉塵に対応した高出力スイープ波</string>
+    <string name="pro_feat_custom_presets">高度な音響ツール</string>
+    <string name="pro_feat_custom_presets_desc">フルスペクトラム解析と無制限のカスタムプリセット</string>
+    <string name="pro_status_active">PROアンロック済み</string>
+    <string name="btn_unlock_pro">買い切りProを購入</string>
+    <string name="pro_onetime_notice">買い切り（一度きりの決済）• 月額料金なし</string>
+</resources>

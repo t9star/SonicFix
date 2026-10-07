@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SonicFix</string>
+
+    <!-- Tabs -->
+    <string name="tab_clean">इजेक्ट</string>
+    <string name="tab_manual">जेनरेटर</string>
+    <string name="tab_test">जांच</string>
+    <string name="tab_pro">प्रो</string>
+
+    <!-- Auto Clean -->
+    <string name="auto_clean_title">स्पीकर से पानी निकालें</string>
+    <string name="auto_clean_subtitle">ध्वनि तरंगों और सूक्ष्म कंपनों से स्पीकर में फंसा पानी और धूल बाहर निकालें</string>
+    <string name="btn_start_clean">पानी निकालें</string>
+    <string name="btn_stop">रोकें</string>
+    <string name="clean_completed_title">सफाई पूरी हुई!</string>
+    <string name="clean_completed_desc">ध्वनि तरंगों ने पानी और धूल को बाहर निकाल दिया है। जांच टैब में स्पीकर की आवाज टेस्ट करें।</string>
+    <string name="btn_ok">ठीक है</string>
+    <string name="guide_header">बेहतर परिणाम के लिए</string>
+    <string name="guide_step_volume">फोन का वॉल्यूम 100% (अधिकतम) करें</string>
+    <string name="guide_step_facing">फोन का स्पीकर नीचे की ओर रखें</string>
+
+    <!-- Manual Generator -->
+    <string name="manual_title">फ्रीक्वेंसी जेनरेटर</string>
+    <string name="manual_subtitle">सटीक ध्वनि तरंग और हर्ट्ज़ (Hz) टोन जनरेटर</string>
+    <string name="presets_title">त्वरित प्रीसेट</string>
+    <string name="btn_play_tone">टोन बजाएं</string>
+
+    <!-- Diagnostics -->
+    <string name="diag_title">ऑडियो जांच</string>
+    <string name="diag_subtitle">स्टीरियो स्पीकर, फ्रीक्वेंसी और माइक की आवाज जांचें</string>
+    <string name="stereo_test_title">स्टीरियो स्पीकर टेस्ट</string>
+    <string name="ch_left">बायां</string>
+    <string name="ch_both">दोनों</string>
+    <string name="ch_right">दायां</string>
+    <string name="frequency_test_title">फ्रीक्वेंसी रिस्पांस टेस्ट</string>
+    <string name="mic_meter_title">माइक डेसिबल (dB) मीटर</string>
+    <string name="btn_enable_mic">माइक अनुमति दें</string>
+    <string name="btn_start_mic">मापना शुरू करें</string>
+    <string name="btn_stop_mic">मापना रोकें</string>
+    <string name="btn_stop_sound">आवाज बंद करें</string>
+
+    <!-- Pro -->
+    <string name="pro_subtitle">सर्वोत्तम सुरक्षा और ऑडियो टूल्स अनलॉक करें</string>
+    <string name="pro_feat_no_ads">100% विज्ञापन-मुक्त</string>
+    <string name="pro_feat_no_ads_desc">बिना किसी रुकावट के ऐप का उपयोग करें</string>
+    <string name="pro_feat_deep_clean">डीप क्लीनिंग मोड</string>
+    <string name="pro_feat_deep_clean_desc">जिद्दी पानी और धूल के लिए शक्तिशाली फ्रीक्वेंसी</string>
+    <string name="pro_feat_custom_presets">उन्नत ऑडियो टूल्स</string>
+    <string name="pro_feat_custom_presets_desc">पूर्ण स्पेक्ट्रम और असीमित कस्टम टोन</string>
+    <string name="pro_status_active">प्रो अनलॉक है</string>
+    <string name="btn_unlock_pro">लाइफटाइम प्रो प्राप्त करें</string>
+    <string name="pro_onetime_notice">केवल एक बार भुगतान • कोई मासिक शुल्क नहीं</string>
+</resources>
