@@ -11,8 +11,8 @@ android {
         applicationId = "jp.tpp.t9s.sonicfix"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.0.1"
     }
 
     signingConfigs {
@@ -73,8 +73,11 @@ dependencies {
   implementation(libs.androidx.compose.material3)
   implementation("androidx.compose.material:material-icons-extended")
 
-  // Billing SDK (Rule compliance: v6.2.1)
-  implementation("com.android.billingclient:billing-ktx:6.2.1")
+  // Billing SDK (Google Play requirement: v8.0.0+)
+  implementation("com.android.billingclient:billing-ktx:8.0.0")
+
+  // Google Mobile Ads (AdMob)
+  implementation("com.google.android.gms:play-services-ads:23.6.0")
 
   // Tooling
   debugImplementation(libs.androidx.compose.ui.tooling)

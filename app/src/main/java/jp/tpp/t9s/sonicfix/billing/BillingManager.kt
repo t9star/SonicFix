@@ -6,6 +6,7 @@ import com.android.billingclient.api.BillingClient
 import com.android.billingclient.api.BillingClientStateListener
 import com.android.billingclient.api.BillingFlowParams
 import com.android.billingclient.api.BillingResult
+import com.android.billingclient.api.PendingPurchasesParams
 import com.android.billingclient.api.ProductDetails
 import com.android.billingclient.api.Purchase
 import com.android.billingclient.api.PurchasesUpdatedListener
@@ -41,9 +42,13 @@ class BillingManager(private val context: Context) : PurchasesUpdatedListener {
     }
 
     private fun initBilling() {
+        val pendingPurchasesParams = PendingPurchasesParams.newBuilder()
+            .enableOneTimeProducts()
+            .build()
+
         billingClient = BillingClient.newBuilder(context)
             .setListener(this)
-            .enablePendingPurchases()
+            .enablePendingPurchases(pendingPurchasesParams)
             .build()
 
         startConnection()
@@ -97,9 +102,9 @@ class BillingManager(private val context: Context) : PurchasesUpdatedListener {
             .setProductList(productList)
             .build()
 
-        client.queryProductDetailsAsync(params) { billingResult, productDetailsList ->
+        client.queryProductDetailsAsync(params) { billingResult, queryProductDetailsResult ->
             if (billingResult.responseCode == BillingClient.BillingResponseCode.OK) {
-                val details = productDetailsList.firstOrNull { it.productId == PRODUCT_ID_PRO }
+                val details = queryProductDetailsResult.productDetailsList.firstOrNull { it.productId == PRODUCT_ID_PRO }
                 if (details != null) {
                     _productDetails.value = details
                     details.oneTimePurchaseOfferDetails?.formattedPrice?.let {
