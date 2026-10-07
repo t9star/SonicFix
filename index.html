@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SonicFix</title>
+    <style>
+        :root {
+            --bg-color: #0b111e;
+            --card-bg: #131d2e;
+            --accent: #00e5ff;
+            --text-primary: #f0f4f8;
+            --text-secondary: #90a4ae;
+            --border: #1b283d;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        h1 {
+            color: var(--accent);
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        .updated {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: var(--text-primary);
+            font-size: 1.3rem;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 6px;
+        }
+        p, li {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 14px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li strong {
+            color: var(--text-primary);
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for SonicFix</h1>
+        <div class="updated">Last Updated: October 7, 2026</div>
+
+        <p>This Privacy Policy describes how <strong>SonicFix</strong> ("the Application", "we", "our") handles user information and device permissions.</p>
+
+        <h2>1. Zero Personal Data Collection (100% Offline)</h2>
+        <p>SonicFix is designed with a privacy-first, zero-knowledge architecture. We do <strong>NOT</strong> collect, store, transmit, or sell any personal data, identifiers, device usage logs, or browsing history to any remote server.</p>
+
+        <h2>2. Device Permissions Usage</h2>
+        <p>The Application requests only the essential hardware permissions required to provide its core utility functions:</p>
+        <ul>
+            <li><strong>Audio Recording (RECORD_AUDIO)</strong>: Used exclusively in the Diagnostics screen to calculate real-time decibel (dB) levels and sound pressure from the speaker. Audio is processed strictly in volatile memory (RAM) and is <strong>NEVER recorded, saved, or uploaded</strong> to any server.</li>
+            <li><strong>Vibration (VIBRATE)</strong>: Used to generate micro-vibration pulses synchronized with audio sweeps to physically dislodge water droplets and dust particles from the device's speakers.</li>
+            <li><strong>In-App Purchases / Billing (com.android.vending.BILLING)</strong>: Used by the official Google Play Billing Library to process one-time purchases for the optional SonicFix Pro upgrade. All payment processing is securely handled by Google Play.</li>
+        </ul>
+
+        <h2>3. Third-Party Services &amp; Advertisements</h2>
+        <p>The Application may use third-party monetization libraries that collect anonymized technical information in accordance with their respective privacy policies:</p>
+        <ul>
+            <li><strong>Google AdMob</strong>: Used to display non-intrusive advertisements in the free tier. Google AdMob may use device advertising identifiers (Google Advertising ID) to deliver relevant ads. For more information, please review the <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Privacy &amp; Terms</a>.</li>
+            <li><strong>Google Play In-App Billing</strong>: Used for secure payment processing. We do not store or have access to your credit card or financial details.</li>
+        </ul>
+
+        <h2>4. Children's Privacy</h2>
+        <p>The Application does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children.</p>
+
+        <h2>5. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or suggestions about our Privacy Policy, please contact us through the <a href="https://github.com/t9star/SonicFix/issues" target="_blank" rel="noopener">SonicFix GitHub Repository Issues</a>.</p>
+
+        <div class="footer">
+            &copy; 2026 SonicFix. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
