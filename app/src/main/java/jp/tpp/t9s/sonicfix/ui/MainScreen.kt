@@ -51,9 +51,10 @@ fun MainScreen(
     audioEngine: AudioEngine,
     vibrationManager: VibrationManager,
     micAnalyzer: AudioMicAnalyzer,
-    billingManager: BillingManager
+    billingManager: BillingManager,
+    initialTab: MainTab = MainTab.CLEAN
 ) {
-    var selectedTab by remember { mutableStateOf(MainTab.CLEAN) }
+    var selectedTab by remember(initialTab) { mutableStateOf(initialTab) }
     val isPro by billingManager.isPro.collectAsState()
 
     Scaffold(
